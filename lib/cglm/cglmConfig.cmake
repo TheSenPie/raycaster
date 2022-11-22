@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(cglm::cglm STATIC IMPORTED)
 
 set_target_properties(cglm::cglm PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/include"
 )
 
 # Import target "cglm::cglm" for configuration "Release"
 set_property(TARGET cglm::cglm APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(cglm::cglm PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/libcglm.a"
+  IMPORTED_LOCATION_RELEASE "/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/libcglm.a"
   )
 
 # This file does not depend on other imported targets which have

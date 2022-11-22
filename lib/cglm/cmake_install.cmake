@@ -1,4 +1,4 @@
-# Install script for directory: /Users/senpie/Documents/projects/personal/cylinder/lib/cglm
+# Install script for directory: /Users/senpie/Documents/projects/personal/raycaster/lib/cglm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/libcglm.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/libcglm.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcglm.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcglm.a")
     execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcglm.a")
@@ -46,14 +46,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/include/cglm" REGEX "/\\.[^/]*$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/include/cglm" REGEX "/\\.[^/]*$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cglm/cglmConfig.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cglm/cglmConfig.cmake"
-         "/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles/Export/lib/cmake/cglm/cglmConfig.cmake")
+         "/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles/Export/lib/cmake/cglm/cglmConfig.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/cglm/cglmConfig-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -62,14 +62,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cglm" TYPE FILE FILES "/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles/Export/lib/cmake/cglm/cglmConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cglm" TYPE FILE FILES "/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles/Export/lib/cmake/cglm/cglmConfig.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cglm" TYPE FILE FILES "/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles/Export/lib/cmake/cglm/cglmConfig-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/cglm" TYPE FILE FILES "/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles/Export/lib/cmake/cglm/cglmConfig-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/cglm.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/cglm.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -80,5 +80,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

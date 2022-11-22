@@ -1,3 +1,11 @@
+#include <stdlib.h>
+
+#define STB_IMAGE_WRITE_IMPLEMENTATION
+#include "stb_image_write.h"
+
+#define WIDTH  512
+#define HEIGHT 512
+
 #include "gfx/window.h"
 #include "world/world.h"
 #include "gfx/gfx.h"
@@ -23,14 +31,12 @@ void tick() {
 }
 
 void update() {
-	state.world.light.position.x = sin(glfwGetTime()) * 2.0f;;
-	state.world.light.position.z = cos(glfwGetTime()) * 2.0f;
 
 	if (state.window->mouse.buttons[GLFW_MOUSE_BUTTON_LEFT].down) {
 		state.renderer.perspective_camera.theta -= state.window->mouse.delta.x * 0.01f;
 		state.renderer.perspective_camera.fi += state.window->mouse.delta.y * 0.01f;
 
-		perspective_camera_look_at(&state.renderer.perspective_camera, state.world.cube.position);
+		perspective_camera_look_at(&state.renderer.perspective_camera, (vec3s) {{0.0f, 0.0f, 0.0f}});
 	}
 	
     // wireframe toggle (T)
@@ -47,15 +53,11 @@ void update() {
 void render() {
 	renderer_prepare(&state.renderer);
 	mat4s cube_model = GLMS_MAT4_IDENTITY;
-	cube_model = glms_translate(cube_model, state.world.cube.position);
-	renderer_cube_color(&state.renderer, cube_model, state.world.light.position, SHADER_BASIC_SHADED);
+	int i;
 
-	mat4s light_model = GLMS_MAT4_IDENTITY;
-	light_model = glms_translate(light_model, state.world.light.position);
-	light_model = glms_scale_uni(light_model, 0.3f);
-	renderer_cube_color(&state.renderer, light_model, state.world.light.position, SHADER_LIGHT_CUBE);
-
-	renderer_cylinder_color(&state.renderer, &state.world.cylinder, state.world.light.position);
+	for (i = 0; i < state.world.triangles_size; i++) {
+		renderer_triangle(&state.renderer, &state.world.triangles[i]);
+	}
 }
 
 int main(int argc, char *argv[]) {
@@ -63,3 +65,15 @@ int main(int argc, char *argv[]) {
 	window_loop();
 	return 0;
 }
+
+
+// int main(int args, char *argv[]) {
+// 	int num = WIDTH * HEIGHT * 3;
+// 	unsigned char colors[num];
+// 	for (int i = 0; i < num; i = i + 3) {
+// 		colors[i] = 225;
+// 		colors[i + 1] = i % 255 ;
+// 		colors[i + 2] = 100;
+// 	}
+// 	stbi_write_bmp("output.bmp", WIDTH, HEIGHT, 3, colors); // generates and image with the specified width, height, and color buffer
+// }

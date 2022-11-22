@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.23.1_1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/senpie/Documents/projects/personal/cylinder/lib/cglm
+CMAKE_SOURCE_DIR = /Users/senpie/Documents/projects/personal/raycaster/lib/cglm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/senpie/Documents/projects/personal/cylinder/lib/cglm
+CMAKE_BINARY_DIR = /Users/senpie/Documents/projects/personal/raycaster/lib/cglm
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cglm.dir/depend.make
@@ -72,534 +72,534 @@ include CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/euler.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/euler.c.o: src/euler.c
 CMakeFiles/cglm.dir/src/euler.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cglm.dir/src/euler.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/euler.c.o -MF CMakeFiles/cglm.dir/src/euler.c.o.d -o CMakeFiles/cglm.dir/src/euler.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/euler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cglm.dir/src/euler.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/euler.c.o -MF CMakeFiles/cglm.dir/src/euler.c.o.d -o CMakeFiles/cglm.dir/src/euler.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/euler.c
 
 CMakeFiles/cglm.dir/src/euler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/euler.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/euler.c > CMakeFiles/cglm.dir/src/euler.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/euler.c > CMakeFiles/cglm.dir/src/euler.c.i
 
 CMakeFiles/cglm.dir/src/euler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/euler.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/euler.c -o CMakeFiles/cglm.dir/src/euler.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/euler.c -o CMakeFiles/cglm.dir/src/euler.c.s
 
 CMakeFiles/cglm.dir/src/affine.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/affine.c.o: src/affine.c
 CMakeFiles/cglm.dir/src/affine.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cglm.dir/src/affine.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/affine.c.o -MF CMakeFiles/cglm.dir/src/affine.c.o.d -o CMakeFiles/cglm.dir/src/affine.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/affine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cglm.dir/src/affine.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/affine.c.o -MF CMakeFiles/cglm.dir/src/affine.c.o.d -o CMakeFiles/cglm.dir/src/affine.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/affine.c
 
 CMakeFiles/cglm.dir/src/affine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/affine.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/affine.c > CMakeFiles/cglm.dir/src/affine.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/affine.c > CMakeFiles/cglm.dir/src/affine.c.i
 
 CMakeFiles/cglm.dir/src/affine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/affine.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/affine.c -o CMakeFiles/cglm.dir/src/affine.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/affine.c -o CMakeFiles/cglm.dir/src/affine.c.s
 
 CMakeFiles/cglm.dir/src/io.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/io.c.o: src/io.c
 CMakeFiles/cglm.dir/src/io.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cglm.dir/src/io.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/io.c.o -MF CMakeFiles/cglm.dir/src/io.c.o.d -o CMakeFiles/cglm.dir/src/io.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cglm.dir/src/io.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/io.c.o -MF CMakeFiles/cglm.dir/src/io.c.o.d -o CMakeFiles/cglm.dir/src/io.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/io.c
 
 CMakeFiles/cglm.dir/src/io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/io.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/io.c > CMakeFiles/cglm.dir/src/io.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/io.c > CMakeFiles/cglm.dir/src/io.c.i
 
 CMakeFiles/cglm.dir/src/io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/io.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/io.c -o CMakeFiles/cglm.dir/src/io.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/io.c -o CMakeFiles/cglm.dir/src/io.c.s
 
 CMakeFiles/cglm.dir/src/quat.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/quat.c.o: src/quat.c
 CMakeFiles/cglm.dir/src/quat.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/cglm.dir/src/quat.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/quat.c.o -MF CMakeFiles/cglm.dir/src/quat.c.o.d -o CMakeFiles/cglm.dir/src/quat.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/quat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/cglm.dir/src/quat.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/quat.c.o -MF CMakeFiles/cglm.dir/src/quat.c.o.d -o CMakeFiles/cglm.dir/src/quat.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/quat.c
 
 CMakeFiles/cglm.dir/src/quat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/quat.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/quat.c > CMakeFiles/cglm.dir/src/quat.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/quat.c > CMakeFiles/cglm.dir/src/quat.c.i
 
 CMakeFiles/cglm.dir/src/quat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/quat.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/quat.c -o CMakeFiles/cglm.dir/src/quat.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/quat.c -o CMakeFiles/cglm.dir/src/quat.c.s
 
 CMakeFiles/cglm.dir/src/cam.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/cam.c.o: src/cam.c
 CMakeFiles/cglm.dir/src/cam.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cglm.dir/src/cam.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/cam.c.o -MF CMakeFiles/cglm.dir/src/cam.c.o.d -o CMakeFiles/cglm.dir/src/cam.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/cam.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cglm.dir/src/cam.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/cam.c.o -MF CMakeFiles/cglm.dir/src/cam.c.o.d -o CMakeFiles/cglm.dir/src/cam.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/cam.c
 
 CMakeFiles/cglm.dir/src/cam.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/cam.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/cam.c > CMakeFiles/cglm.dir/src/cam.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/cam.c > CMakeFiles/cglm.dir/src/cam.c.i
 
 CMakeFiles/cglm.dir/src/cam.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/cam.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/cam.c -o CMakeFiles/cglm.dir/src/cam.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/cam.c -o CMakeFiles/cglm.dir/src/cam.c.s
 
 CMakeFiles/cglm.dir/src/vec2.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/vec2.c.o: src/vec2.c
 CMakeFiles/cglm.dir/src/vec2.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cglm.dir/src/vec2.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/vec2.c.o -MF CMakeFiles/cglm.dir/src/vec2.c.o.d -o CMakeFiles/cglm.dir/src/vec2.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/vec2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cglm.dir/src/vec2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/vec2.c.o -MF CMakeFiles/cglm.dir/src/vec2.c.o.d -o CMakeFiles/cglm.dir/src/vec2.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/vec2.c
 
 CMakeFiles/cglm.dir/src/vec2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/vec2.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/vec2.c > CMakeFiles/cglm.dir/src/vec2.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/vec2.c > CMakeFiles/cglm.dir/src/vec2.c.i
 
 CMakeFiles/cglm.dir/src/vec2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/vec2.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/vec2.c -o CMakeFiles/cglm.dir/src/vec2.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/vec2.c -o CMakeFiles/cglm.dir/src/vec2.c.s
 
 CMakeFiles/cglm.dir/src/ivec2.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/ivec2.c.o: src/ivec2.c
 CMakeFiles/cglm.dir/src/ivec2.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/cglm.dir/src/ivec2.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/ivec2.c.o -MF CMakeFiles/cglm.dir/src/ivec2.c.o.d -o CMakeFiles/cglm.dir/src/ivec2.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ivec2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/cglm.dir/src/ivec2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/ivec2.c.o -MF CMakeFiles/cglm.dir/src/ivec2.c.o.d -o CMakeFiles/cglm.dir/src/ivec2.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ivec2.c
 
 CMakeFiles/cglm.dir/src/ivec2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/ivec2.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ivec2.c > CMakeFiles/cglm.dir/src/ivec2.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ivec2.c > CMakeFiles/cglm.dir/src/ivec2.c.i
 
 CMakeFiles/cglm.dir/src/ivec2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/ivec2.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ivec2.c -o CMakeFiles/cglm.dir/src/ivec2.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ivec2.c -o CMakeFiles/cglm.dir/src/ivec2.c.s
 
 CMakeFiles/cglm.dir/src/vec3.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/vec3.c.o: src/vec3.c
 CMakeFiles/cglm.dir/src/vec3.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/cglm.dir/src/vec3.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/vec3.c.o -MF CMakeFiles/cglm.dir/src/vec3.c.o.d -o CMakeFiles/cglm.dir/src/vec3.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/vec3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/cglm.dir/src/vec3.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/vec3.c.o -MF CMakeFiles/cglm.dir/src/vec3.c.o.d -o CMakeFiles/cglm.dir/src/vec3.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/vec3.c
 
 CMakeFiles/cglm.dir/src/vec3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/vec3.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/vec3.c > CMakeFiles/cglm.dir/src/vec3.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/vec3.c > CMakeFiles/cglm.dir/src/vec3.c.i
 
 CMakeFiles/cglm.dir/src/vec3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/vec3.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/vec3.c -o CMakeFiles/cglm.dir/src/vec3.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/vec3.c -o CMakeFiles/cglm.dir/src/vec3.c.s
 
 CMakeFiles/cglm.dir/src/ivec3.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/ivec3.c.o: src/ivec3.c
 CMakeFiles/cglm.dir/src/ivec3.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/cglm.dir/src/ivec3.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/ivec3.c.o -MF CMakeFiles/cglm.dir/src/ivec3.c.o.d -o CMakeFiles/cglm.dir/src/ivec3.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ivec3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/cglm.dir/src/ivec3.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/ivec3.c.o -MF CMakeFiles/cglm.dir/src/ivec3.c.o.d -o CMakeFiles/cglm.dir/src/ivec3.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ivec3.c
 
 CMakeFiles/cglm.dir/src/ivec3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/ivec3.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ivec3.c > CMakeFiles/cglm.dir/src/ivec3.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ivec3.c > CMakeFiles/cglm.dir/src/ivec3.c.i
 
 CMakeFiles/cglm.dir/src/ivec3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/ivec3.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ivec3.c -o CMakeFiles/cglm.dir/src/ivec3.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ivec3.c -o CMakeFiles/cglm.dir/src/ivec3.c.s
 
 CMakeFiles/cglm.dir/src/vec4.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/vec4.c.o: src/vec4.c
 CMakeFiles/cglm.dir/src/vec4.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/cglm.dir/src/vec4.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/vec4.c.o -MF CMakeFiles/cglm.dir/src/vec4.c.o.d -o CMakeFiles/cglm.dir/src/vec4.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/vec4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/cglm.dir/src/vec4.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/vec4.c.o -MF CMakeFiles/cglm.dir/src/vec4.c.o.d -o CMakeFiles/cglm.dir/src/vec4.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/vec4.c
 
 CMakeFiles/cglm.dir/src/vec4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/vec4.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/vec4.c > CMakeFiles/cglm.dir/src/vec4.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/vec4.c > CMakeFiles/cglm.dir/src/vec4.c.i
 
 CMakeFiles/cglm.dir/src/vec4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/vec4.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/vec4.c -o CMakeFiles/cglm.dir/src/vec4.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/vec4.c -o CMakeFiles/cglm.dir/src/vec4.c.s
 
 CMakeFiles/cglm.dir/src/ivec4.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/ivec4.c.o: src/ivec4.c
 CMakeFiles/cglm.dir/src/ivec4.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/cglm.dir/src/ivec4.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/ivec4.c.o -MF CMakeFiles/cglm.dir/src/ivec4.c.o.d -o CMakeFiles/cglm.dir/src/ivec4.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ivec4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/cglm.dir/src/ivec4.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/ivec4.c.o -MF CMakeFiles/cglm.dir/src/ivec4.c.o.d -o CMakeFiles/cglm.dir/src/ivec4.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ivec4.c
 
 CMakeFiles/cglm.dir/src/ivec4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/ivec4.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ivec4.c > CMakeFiles/cglm.dir/src/ivec4.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ivec4.c > CMakeFiles/cglm.dir/src/ivec4.c.i
 
 CMakeFiles/cglm.dir/src/ivec4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/ivec4.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ivec4.c -o CMakeFiles/cglm.dir/src/ivec4.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ivec4.c -o CMakeFiles/cglm.dir/src/ivec4.c.s
 
 CMakeFiles/cglm.dir/src/mat2.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/mat2.c.o: src/mat2.c
 CMakeFiles/cglm.dir/src/mat2.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/cglm.dir/src/mat2.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/mat2.c.o -MF CMakeFiles/cglm.dir/src/mat2.c.o.d -o CMakeFiles/cglm.dir/src/mat2.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/mat2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/cglm.dir/src/mat2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/mat2.c.o -MF CMakeFiles/cglm.dir/src/mat2.c.o.d -o CMakeFiles/cglm.dir/src/mat2.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/mat2.c
 
 CMakeFiles/cglm.dir/src/mat2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/mat2.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/mat2.c > CMakeFiles/cglm.dir/src/mat2.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/mat2.c > CMakeFiles/cglm.dir/src/mat2.c.i
 
 CMakeFiles/cglm.dir/src/mat2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/mat2.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/mat2.c -o CMakeFiles/cglm.dir/src/mat2.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/mat2.c -o CMakeFiles/cglm.dir/src/mat2.c.s
 
 CMakeFiles/cglm.dir/src/mat3.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/mat3.c.o: src/mat3.c
 CMakeFiles/cglm.dir/src/mat3.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/cglm.dir/src/mat3.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/mat3.c.o -MF CMakeFiles/cglm.dir/src/mat3.c.o.d -o CMakeFiles/cglm.dir/src/mat3.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/mat3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/cglm.dir/src/mat3.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/mat3.c.o -MF CMakeFiles/cglm.dir/src/mat3.c.o.d -o CMakeFiles/cglm.dir/src/mat3.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/mat3.c
 
 CMakeFiles/cglm.dir/src/mat3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/mat3.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/mat3.c > CMakeFiles/cglm.dir/src/mat3.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/mat3.c > CMakeFiles/cglm.dir/src/mat3.c.i
 
 CMakeFiles/cglm.dir/src/mat3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/mat3.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/mat3.c -o CMakeFiles/cglm.dir/src/mat3.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/mat3.c -o CMakeFiles/cglm.dir/src/mat3.c.s
 
 CMakeFiles/cglm.dir/src/mat4.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/mat4.c.o: src/mat4.c
 CMakeFiles/cglm.dir/src/mat4.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/cglm.dir/src/mat4.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/mat4.c.o -MF CMakeFiles/cglm.dir/src/mat4.c.o.d -o CMakeFiles/cglm.dir/src/mat4.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/mat4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/cglm.dir/src/mat4.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/mat4.c.o -MF CMakeFiles/cglm.dir/src/mat4.c.o.d -o CMakeFiles/cglm.dir/src/mat4.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/mat4.c
 
 CMakeFiles/cglm.dir/src/mat4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/mat4.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/mat4.c > CMakeFiles/cglm.dir/src/mat4.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/mat4.c > CMakeFiles/cglm.dir/src/mat4.c.i
 
 CMakeFiles/cglm.dir/src/mat4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/mat4.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/mat4.c -o CMakeFiles/cglm.dir/src/mat4.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/mat4.c -o CMakeFiles/cglm.dir/src/mat4.c.s
 
 CMakeFiles/cglm.dir/src/plane.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/plane.c.o: src/plane.c
 CMakeFiles/cglm.dir/src/plane.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/cglm.dir/src/plane.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/plane.c.o -MF CMakeFiles/cglm.dir/src/plane.c.o.d -o CMakeFiles/cglm.dir/src/plane.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/plane.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/cglm.dir/src/plane.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/plane.c.o -MF CMakeFiles/cglm.dir/src/plane.c.o.d -o CMakeFiles/cglm.dir/src/plane.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/plane.c
 
 CMakeFiles/cglm.dir/src/plane.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/plane.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/plane.c > CMakeFiles/cglm.dir/src/plane.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/plane.c > CMakeFiles/cglm.dir/src/plane.c.i
 
 CMakeFiles/cglm.dir/src/plane.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/plane.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/plane.c -o CMakeFiles/cglm.dir/src/plane.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/plane.c -o CMakeFiles/cglm.dir/src/plane.c.s
 
 CMakeFiles/cglm.dir/src/frustum.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/frustum.c.o: src/frustum.c
 CMakeFiles/cglm.dir/src/frustum.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/cglm.dir/src/frustum.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/frustum.c.o -MF CMakeFiles/cglm.dir/src/frustum.c.o.d -o CMakeFiles/cglm.dir/src/frustum.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/frustum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/cglm.dir/src/frustum.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/frustum.c.o -MF CMakeFiles/cglm.dir/src/frustum.c.o.d -o CMakeFiles/cglm.dir/src/frustum.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/frustum.c
 
 CMakeFiles/cglm.dir/src/frustum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/frustum.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/frustum.c > CMakeFiles/cglm.dir/src/frustum.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/frustum.c > CMakeFiles/cglm.dir/src/frustum.c.i
 
 CMakeFiles/cglm.dir/src/frustum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/frustum.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/frustum.c -o CMakeFiles/cglm.dir/src/frustum.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/frustum.c -o CMakeFiles/cglm.dir/src/frustum.c.s
 
 CMakeFiles/cglm.dir/src/box.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/box.c.o: src/box.c
 CMakeFiles/cglm.dir/src/box.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/cglm.dir/src/box.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/box.c.o -MF CMakeFiles/cglm.dir/src/box.c.o.d -o CMakeFiles/cglm.dir/src/box.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/box.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/cglm.dir/src/box.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/box.c.o -MF CMakeFiles/cglm.dir/src/box.c.o.d -o CMakeFiles/cglm.dir/src/box.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/box.c
 
 CMakeFiles/cglm.dir/src/box.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/box.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/box.c > CMakeFiles/cglm.dir/src/box.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/box.c > CMakeFiles/cglm.dir/src/box.c.i
 
 CMakeFiles/cglm.dir/src/box.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/box.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/box.c -o CMakeFiles/cglm.dir/src/box.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/box.c -o CMakeFiles/cglm.dir/src/box.c.s
 
 CMakeFiles/cglm.dir/src/project.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/project.c.o: src/project.c
 CMakeFiles/cglm.dir/src/project.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/cglm.dir/src/project.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/project.c.o -MF CMakeFiles/cglm.dir/src/project.c.o.d -o CMakeFiles/cglm.dir/src/project.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/project.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/cglm.dir/src/project.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/project.c.o -MF CMakeFiles/cglm.dir/src/project.c.o.d -o CMakeFiles/cglm.dir/src/project.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/project.c
 
 CMakeFiles/cglm.dir/src/project.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/project.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/project.c > CMakeFiles/cglm.dir/src/project.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/project.c > CMakeFiles/cglm.dir/src/project.c.i
 
 CMakeFiles/cglm.dir/src/project.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/project.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/project.c -o CMakeFiles/cglm.dir/src/project.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/project.c -o CMakeFiles/cglm.dir/src/project.c.s
 
 CMakeFiles/cglm.dir/src/sphere.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/sphere.c.o: src/sphere.c
 CMakeFiles/cglm.dir/src/sphere.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/cglm.dir/src/sphere.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/sphere.c.o -MF CMakeFiles/cglm.dir/src/sphere.c.o.d -o CMakeFiles/cglm.dir/src/sphere.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/sphere.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/cglm.dir/src/sphere.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/sphere.c.o -MF CMakeFiles/cglm.dir/src/sphere.c.o.d -o CMakeFiles/cglm.dir/src/sphere.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/sphere.c
 
 CMakeFiles/cglm.dir/src/sphere.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/sphere.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/sphere.c > CMakeFiles/cglm.dir/src/sphere.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/sphere.c > CMakeFiles/cglm.dir/src/sphere.c.i
 
 CMakeFiles/cglm.dir/src/sphere.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/sphere.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/sphere.c -o CMakeFiles/cglm.dir/src/sphere.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/sphere.c -o CMakeFiles/cglm.dir/src/sphere.c.s
 
 CMakeFiles/cglm.dir/src/ease.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/ease.c.o: src/ease.c
 CMakeFiles/cglm.dir/src/ease.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/cglm.dir/src/ease.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/ease.c.o -MF CMakeFiles/cglm.dir/src/ease.c.o.d -o CMakeFiles/cglm.dir/src/ease.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ease.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/cglm.dir/src/ease.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/ease.c.o -MF CMakeFiles/cglm.dir/src/ease.c.o.d -o CMakeFiles/cglm.dir/src/ease.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ease.c
 
 CMakeFiles/cglm.dir/src/ease.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/ease.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ease.c > CMakeFiles/cglm.dir/src/ease.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ease.c > CMakeFiles/cglm.dir/src/ease.c.i
 
 CMakeFiles/cglm.dir/src/ease.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/ease.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ease.c -o CMakeFiles/cglm.dir/src/ease.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ease.c -o CMakeFiles/cglm.dir/src/ease.c.s
 
 CMakeFiles/cglm.dir/src/curve.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/curve.c.o: src/curve.c
 CMakeFiles/cglm.dir/src/curve.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/cglm.dir/src/curve.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/curve.c.o -MF CMakeFiles/cglm.dir/src/curve.c.o.d -o CMakeFiles/cglm.dir/src/curve.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/curve.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/cglm.dir/src/curve.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/curve.c.o -MF CMakeFiles/cglm.dir/src/curve.c.o.d -o CMakeFiles/cglm.dir/src/curve.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/curve.c
 
 CMakeFiles/cglm.dir/src/curve.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/curve.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/curve.c > CMakeFiles/cglm.dir/src/curve.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/curve.c > CMakeFiles/cglm.dir/src/curve.c.i
 
 CMakeFiles/cglm.dir/src/curve.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/curve.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/curve.c -o CMakeFiles/cglm.dir/src/curve.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/curve.c -o CMakeFiles/cglm.dir/src/curve.c.s
 
 CMakeFiles/cglm.dir/src/bezier.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/bezier.c.o: src/bezier.c
 CMakeFiles/cglm.dir/src/bezier.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/cglm.dir/src/bezier.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/bezier.c.o -MF CMakeFiles/cglm.dir/src/bezier.c.o.d -o CMakeFiles/cglm.dir/src/bezier.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/bezier.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/cglm.dir/src/bezier.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/bezier.c.o -MF CMakeFiles/cglm.dir/src/bezier.c.o.d -o CMakeFiles/cglm.dir/src/bezier.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/bezier.c
 
 CMakeFiles/cglm.dir/src/bezier.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/bezier.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/bezier.c > CMakeFiles/cglm.dir/src/bezier.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/bezier.c > CMakeFiles/cglm.dir/src/bezier.c.i
 
 CMakeFiles/cglm.dir/src/bezier.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/bezier.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/bezier.c -o CMakeFiles/cglm.dir/src/bezier.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/bezier.c -o CMakeFiles/cglm.dir/src/bezier.c.s
 
 CMakeFiles/cglm.dir/src/ray.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/ray.c.o: src/ray.c
 CMakeFiles/cglm.dir/src/ray.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/cglm.dir/src/ray.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/ray.c.o -MF CMakeFiles/cglm.dir/src/ray.c.o.d -o CMakeFiles/cglm.dir/src/ray.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ray.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/cglm.dir/src/ray.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/ray.c.o -MF CMakeFiles/cglm.dir/src/ray.c.o.d -o CMakeFiles/cglm.dir/src/ray.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ray.c
 
 CMakeFiles/cglm.dir/src/ray.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/ray.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ray.c > CMakeFiles/cglm.dir/src/ray.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ray.c > CMakeFiles/cglm.dir/src/ray.c.i
 
 CMakeFiles/cglm.dir/src/ray.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/ray.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/ray.c -o CMakeFiles/cglm.dir/src/ray.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/ray.c -o CMakeFiles/cglm.dir/src/ray.c.s
 
 CMakeFiles/cglm.dir/src/affine2d.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/affine2d.c.o: src/affine2d.c
 CMakeFiles/cglm.dir/src/affine2d.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/cglm.dir/src/affine2d.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/affine2d.c.o -MF CMakeFiles/cglm.dir/src/affine2d.c.o.d -o CMakeFiles/cglm.dir/src/affine2d.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/affine2d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/cglm.dir/src/affine2d.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/affine2d.c.o -MF CMakeFiles/cglm.dir/src/affine2d.c.o.d -o CMakeFiles/cglm.dir/src/affine2d.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/affine2d.c
 
 CMakeFiles/cglm.dir/src/affine2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/affine2d.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/affine2d.c > CMakeFiles/cglm.dir/src/affine2d.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/affine2d.c > CMakeFiles/cglm.dir/src/affine2d.c.i
 
 CMakeFiles/cglm.dir/src/affine2d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/affine2d.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/affine2d.c -o CMakeFiles/cglm.dir/src/affine2d.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/affine2d.c -o CMakeFiles/cglm.dir/src/affine2d.c.s
 
 CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.o: src/clipspace/ortho_lh_no.c
 CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.o -MF CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/ortho_lh_no.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.o -MF CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/ortho_lh_no.c
 
 CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/ortho_lh_no.c > CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/ortho_lh_no.c > CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.i
 
 CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/ortho_lh_no.c -o CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/ortho_lh_no.c -o CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.s
 
 CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.o: src/clipspace/ortho_lh_zo.c
 CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.o -MF CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/ortho_lh_zo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.o -MF CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/ortho_lh_zo.c
 
 CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/ortho_lh_zo.c > CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/ortho_lh_zo.c > CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.i
 
 CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/ortho_lh_zo.c -o CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/ortho_lh_zo.c -o CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.s
 
 CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.o: src/clipspace/ortho_rh_no.c
 CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.o -MF CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/ortho_rh_no.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.o -MF CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/ortho_rh_no.c
 
 CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/ortho_rh_no.c > CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/ortho_rh_no.c > CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.i
 
 CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/ortho_rh_no.c -o CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/ortho_rh_no.c -o CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.s
 
 CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.o: src/clipspace/ortho_rh_zo.c
 CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.o -MF CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/ortho_rh_zo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.o -MF CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/ortho_rh_zo.c
 
 CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/ortho_rh_zo.c > CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/ortho_rh_zo.c > CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.i
 
 CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/ortho_rh_zo.c -o CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/ortho_rh_zo.c -o CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.s
 
 CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.o: src/clipspace/persp_lh_no.c
 CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.o -MF CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/persp_lh_no.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.o -MF CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/persp_lh_no.c
 
 CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/persp_lh_no.c > CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/persp_lh_no.c > CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.i
 
 CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/persp_lh_no.c -o CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/persp_lh_no.c -o CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.s
 
 CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.o: src/clipspace/persp_lh_zo.c
 CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.o -MF CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/persp_lh_zo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.o -MF CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/persp_lh_zo.c
 
 CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/persp_lh_zo.c > CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/persp_lh_zo.c > CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.i
 
 CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/persp_lh_zo.c -o CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/persp_lh_zo.c -o CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.s
 
 CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.o: src/clipspace/persp_rh_no.c
 CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.o -MF CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/persp_rh_no.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.o -MF CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/persp_rh_no.c
 
 CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/persp_rh_no.c > CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/persp_rh_no.c > CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.i
 
 CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/persp_rh_no.c -o CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/persp_rh_no.c -o CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.s
 
 CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.o: src/clipspace/persp_rh_zo.c
 CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.o -MF CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/persp_rh_zo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.o -MF CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/persp_rh_zo.c
 
 CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/persp_rh_zo.c > CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/persp_rh_zo.c > CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.i
 
 CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/persp_rh_zo.c -o CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/persp_rh_zo.c -o CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.s
 
 CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.o: src/clipspace/view_lh_no.c
 CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.o -MF CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/view_lh_no.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.o -MF CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/view_lh_no.c
 
 CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/view_lh_no.c > CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/view_lh_no.c > CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.i
 
 CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/view_lh_no.c -o CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/view_lh_no.c -o CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.s
 
 CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.o: src/clipspace/view_lh_zo.c
 CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.o -MF CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/view_lh_zo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.o -MF CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/view_lh_zo.c
 
 CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/view_lh_zo.c > CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/view_lh_zo.c > CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.i
 
 CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/view_lh_zo.c -o CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/view_lh_zo.c -o CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.s
 
 CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.o: src/clipspace/view_rh_no.c
 CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.o -MF CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/view_rh_no.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.o -MF CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/view_rh_no.c
 
 CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/view_rh_no.c > CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/view_rh_no.c > CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.i
 
 CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/view_rh_no.c -o CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/view_rh_no.c -o CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.s
 
 CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.o: src/clipspace/view_rh_zo.c
 CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.o -MF CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/view_rh_zo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.o -MF CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/view_rh_zo.c
 
 CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/view_rh_zo.c > CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/view_rh_zo.c > CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.i
 
 CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/view_rh_zo.c -o CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/view_rh_zo.c -o CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.s
 
 CMakeFiles/cglm.dir/src/clipspace/project_no.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/clipspace/project_no.c.o: src/clipspace/project_no.c
 CMakeFiles/cglm.dir/src/clipspace/project_no.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/cglm.dir/src/clipspace/project_no.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/project_no.c.o -MF CMakeFiles/cglm.dir/src/clipspace/project_no.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/project_no.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/project_no.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/cglm.dir/src/clipspace/project_no.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/project_no.c.o -MF CMakeFiles/cglm.dir/src/clipspace/project_no.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/project_no.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/project_no.c
 
 CMakeFiles/cglm.dir/src/clipspace/project_no.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/project_no.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/project_no.c > CMakeFiles/cglm.dir/src/clipspace/project_no.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/project_no.c > CMakeFiles/cglm.dir/src/clipspace/project_no.c.i
 
 CMakeFiles/cglm.dir/src/clipspace/project_no.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/project_no.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/project_no.c -o CMakeFiles/cglm.dir/src/clipspace/project_no.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/project_no.c -o CMakeFiles/cglm.dir/src/clipspace/project_no.c.s
 
 CMakeFiles/cglm.dir/src/clipspace/project_zo.c.o: CMakeFiles/cglm.dir/flags.make
 CMakeFiles/cglm.dir/src/clipspace/project_zo.c.o: src/clipspace/project_zo.c
 CMakeFiles/cglm.dir/src/clipspace/project_zo.c.o: CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/cglm.dir/src/clipspace/project_zo.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/project_zo.c.o -MF CMakeFiles/cglm.dir/src/clipspace/project_zo.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/project_zo.c.o -c /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/project_zo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/cglm.dir/src/clipspace/project_zo.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cglm.dir/src/clipspace/project_zo.c.o -MF CMakeFiles/cglm.dir/src/clipspace/project_zo.c.o.d -o CMakeFiles/cglm.dir/src/clipspace/project_zo.c.o -c /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/project_zo.c
 
 CMakeFiles/cglm.dir/src/clipspace/project_zo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/project_zo.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/project_zo.c > CMakeFiles/cglm.dir/src/clipspace/project_zo.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/project_zo.c > CMakeFiles/cglm.dir/src/clipspace/project_zo.c.i
 
 CMakeFiles/cglm.dir/src/clipspace/project_zo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/project_zo.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/src/clipspace/project_zo.c -o CMakeFiles/cglm.dir/src/clipspace/project_zo.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/src/clipspace/project_zo.c -o CMakeFiles/cglm.dir/src/clipspace/project_zo.c.s
 
 # Object files for target cglm
 cglm_OBJECTS = \
@@ -685,7 +685,7 @@ libcglm.a: CMakeFiles/cglm.dir/src/clipspace/project_no.c.o
 libcglm.a: CMakeFiles/cglm.dir/src/clipspace/project_zo.c.o
 libcglm.a: CMakeFiles/cglm.dir/build.make
 libcglm.a: CMakeFiles/cglm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking C static library libcglm.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking C static library libcglm.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/cglm.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cglm.dir/link.txt --verbose=$(VERBOSE)
 
@@ -698,6 +698,6 @@ CMakeFiles/cglm.dir/clean:
 .PHONY : CMakeFiles/cglm.dir/clean
 
 CMakeFiles/cglm.dir/depend:
-	cd /Users/senpie/Documents/projects/personal/cylinder/lib/cglm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/senpie/Documents/projects/personal/cylinder/lib/cglm /Users/senpie/Documents/projects/personal/cylinder/lib/cglm /Users/senpie/Documents/projects/personal/cylinder/lib/cglm /Users/senpie/Documents/projects/personal/cylinder/lib/cglm /Users/senpie/Documents/projects/personal/cylinder/lib/cglm/CMakeFiles/cglm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/senpie/Documents/projects/personal/raycaster/lib/cglm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/senpie/Documents/projects/personal/raycaster/lib/cglm /Users/senpie/Documents/projects/personal/raycaster/lib/cglm /Users/senpie/Documents/projects/personal/raycaster/lib/cglm /Users/senpie/Documents/projects/personal/raycaster/lib/cglm /Users/senpie/Documents/projects/personal/raycaster/lib/cglm/CMakeFiles/cglm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cglm.dir/depend
 

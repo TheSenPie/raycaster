@@ -1,11 +1,8 @@
-#include "cube.h"
-#include "light.h"
-#include "cylinder.h"
+#include "triangle.h"
 
 struct World {
-    struct Cube cube;
-    struct Light light;
-    struct Cylinder cylinder;
+    struct Triangle *triangles;
+    int triangles_size;
 };
 
 void world_init (struct World *self);

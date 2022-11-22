@@ -3,7 +3,7 @@ UNAME_S = $(shell uname -s)
 CFLAGS = -std=c11 -O0 -g -Wall -Wextra -Wpedantic -Wstrict-aliasing
 CFLAGS += -Wno-pointer-arith -Wno-newline-eof -Wno-unused-parameter -Wno-gnu-statement-expression
 CFLAGS += -Wno-gnu-compound-literal-initializer -Wno-gnu-zero-variadic-macro-arguments
-CFLAGS += -Ilib/cglm/include -Ilib/glad/include -Ilib/glfw/include 
+CFLAGS += -Ilib/cglm/include -Ilib/glad/include -Ilib/stb -Ilib/glfw/include 
 LDFLAGS = lib/glad/src/glad.o lib/cglm/libcglm.a lib/glfw/src/libglfw3.a
 
 # GLFW required frameworks on OSX

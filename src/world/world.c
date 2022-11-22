@@ -8,7 +8,12 @@
 #include "world.h"
 
 void world_init (struct World *self) {
-    self->cube = (struct Cube) {GLMS_VEC3_ZERO_INIT};
-    self->light = (struct Light) { (vec3s) {{1.2f, 0.0f, 2.0f}} };
-    cylinder_init(&(self->cylinder), 1, 4, 100, 100);
+    self->triangles_size = 1;
+    self->triangles = malloc(self->triangles_size * sizeof(struct Triangle));
+
+    int i;
+
+    for (i = 0; i < self->triangles_size; i++) {
+        triangle_init(&self->triangles[i], GLMS_VEC3_ZERO, GLMS_VEC3_ZERO);
+    }
 }

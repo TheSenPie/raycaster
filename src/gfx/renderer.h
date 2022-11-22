@@ -7,7 +7,7 @@
 #include "vao.h"
 #include "vbo.h"
 
-#include "../world/cylinder.h"
+#include "../world/triangle.h"
 
 enum FillMode {
     FILL_MODE_FILL, FILL_MODE_LINE
@@ -57,10 +57,6 @@ void renderer_pop_camera(struct Renderer *self);
 void renderer_set_view_proj(struct Renderer *self);
 void renderer_use_shader(struct Renderer *self, enum ShaderType shader);
 
-void renderer_quad_color(
-    struct Renderer *self, vec2s size,
-    vec4s color, mat4s model);
-void renderer_cube_color(struct Renderer *self, mat4s model, vec3s light_pos, enum ShaderType shader);
-void renderer_cylinder_color(struct Renderer *self, struct Cylinder *cylinder, vec3s light_pos);
+void renderer_triangle(struct Renderer *self, struct Triangle *triangle);
 
 #endif
