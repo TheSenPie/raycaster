@@ -1,41 +1,31 @@
 #include "triangle.h"
 
-void triangle_init (struct Triangle *self, vec3s position, vec3s color) {
-    self->vertices_size = 3 * 6; // x, y, z // r, g, b
-    self->vertices = malloc(self->vertices_size * sizeof(float));
+void triangle_one (struct Triangle *self) {
+    self->v0 = (vec3s) {{-1.5f, -1.0f, -5.0f}};
+    self->v1 = (vec3s) {{ 0.5f, -1.0f, -5.0f}};
+    self->v2 = (vec3s) {{ -0.5f,  1.0f, -5.0f}};
 
-    self->indices_size = 3;
-    self->indices = malloc(self->indices_size * sizeof(int));
+    self->color_v0 = (vec3s) {{1.0f, 0.0f, 0.0f}};
+    self->color_v1 = (vec3s) {{0.0f, 1.0f, 0.0f}};
+    self->color_v2 = (vec3s) {{0.0f, 0.0f, 1.0f}};
+}
 
-    // x, y, z
-    self->vertices[0] = -1;
-    self->vertices[1] = -1;
-    self->vertices[2] = 0;
-    // r, g, b
-    self->vertices[3] = 1;
-    self->vertices[4] = 0;
-    self->vertices[5] = 0;
+void triangle_two (struct Triangle *self) {
+    self->v0 = (vec3s) {{-1.0f, -1.0f, -5.0}};
+    self->v1 = (vec3s) {{ 1.0f, -1.0f, -5.0}};
+    self->v2 = (vec3s) {{ 0.0f,  1.0f, -5.0}};
 
-    // x, y, z
-    self->vertices[6] = 0;
-    self->vertices[7] = 1;
-    self->vertices[8] = 0;
-    // r, g, b
-    self->vertices[9] = 0;
-    self->vertices[10] = 1;
-    self->vertices[11] = 0;
+    self->color_v0 = (vec3s) {{ 0.0f, 1.0f, 1.0f}};
+    self->color_v1 = (vec3s) {{ 1.0f, 0.0f, 1.0f}};
+    self->color_v2 = (vec3s) {{ 1.0f, 1.0f, 0.0f}};
+}
 
-    // x, y, z
-    self->vertices[12] = 1;
-    self->vertices[13] = -1;
-    self->vertices[14] = 0;
-    // r, g, b
-    self->vertices[15] = 0;
-    self->vertices[16] = 0;
-    self->vertices[17] = 1;
-
-    // bottom left, top, bottom right
-    self->indices[0] = 0;
-    self->indices[1] = 1;
-    self->indices[2] = 2;
+void triangle_three (struct Triangle *self) {
+    self->v0 = (vec3s) {{-0.5f, -1.0f, -5.0f}};
+    self->v1 = (vec3s) {{1.5f, -1.0f, -5.0f}};
+    self->v2 = (vec3s) {{0.5f,  1.0f, -5.0f}};
+    
+    self->color_v0 = (vec3s) {{ 0.5f, 0.7f, 0.3f}};
+    self->color_v1 = (vec3s) {{ 0.3f, 0.5f, 0.7f}};
+    self->color_v2 = (vec3s) {{ 0.7f, 0.3f, 0.5f}};
 }

@@ -9,15 +9,17 @@
 #pragma GCC diagnostic pop
 
 struct Triangle {
-    vec3s position;
-    vec3s color;
+    vec3s v0;
+    vec3s v1;
+    vec3s v2;
 
-    float *vertices;
-    int vertices_size;
-    int *indices;
-    int indices_size;
+    vec3s color_v0;
+    vec3s color_v1;
+    vec3s color_v2;
 };
 
-void triangle_init (struct Triangle *self, vec3s position, vec3s color);
+void triangle_one (struct Triangle *self);
+void triangle_two (struct Triangle *self);
+void triangle_three (struct Triangle *self);
 
 #endif

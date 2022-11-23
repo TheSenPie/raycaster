@@ -10,7 +10,6 @@
 #pragma GCC diagnostic pop
 
 #include "types.h"
-#include "direction.h"
 
 #define IVEC2S2V(_v) ({ ivec2s _u = ( _v ); ((vec2s) {{ _u.x, _u.y }}); })
 #define VEC2S2I(_v) ({ vec2s _u = ( _v ); ((ivec2s) {{ _u.x, _u.y }}); })

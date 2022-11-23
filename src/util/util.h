@@ -22,9 +22,6 @@
 #pragma GCC diagnostic pop
 
 #include "fmath.h"
-#include "time.h"
-#include "direction.h"
 #include "types.h"
-#include "color.h"
 
 #endif
