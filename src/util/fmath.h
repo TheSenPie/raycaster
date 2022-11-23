@@ -58,4 +58,6 @@
 int ivec3scmp(ivec3s a, ivec3s b);
 s64 ivec3shash(ivec3s v);
 
+bool ray_triangle_intersect(vec3s orig, vec3s dir, vec3s v0, vec3s v1, vec3s v2, float *t, float *u, float *v);
+
 #endif

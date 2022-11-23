@@ -14,24 +14,6 @@ void renderer_init(struct Renderer *self) {
         }
     );
 
-    self->shaders[SHADER_BASIC_SHADED] = shader_create(
-        "res/shaders/basic_shaded.vs", "res/shaders/basic_shaded.fs",
-        1, (struct VertexAttr[]) {
-            { .index = 0, .name = "aPos" },
-            { .index = 1, .name = "aNormal" },
-            { .index = 2, .name = "aColor" }
-        }
-    );
-
-    self->shaders[SHADER_LIGHT_CUBE] = shader_create(
-        "res/shaders/light_cube.vs", "res/shaders/light_cube.fs",
-        1, (struct VertexAttr[]) {
-            { .index = 0, .name = "aPos" },
-            { .index = 1, .name = "aNormal" },
-            { .index = 2, .name = "aColor" }
-        }
-    );
-
     self->vao = vao_create();
     self->vbo = vbo_create(GL_ARRAY_BUFFER, false);
     self->ibo = vbo_create(GL_ELEMENT_ARRAY_BUFFER, false);
@@ -108,15 +90,13 @@ void renderer_triangle(struct Renderer *self, struct Triangle *triangle) {
 
     mat4s model = GLMS_MAT4_IDENTITY;
     shader_uniform_mat4(self->shader, "m", model);
-    shader_uniform_vec4(self->shader, "color", (vec4s) {{1.0f, 0.0f, 0.0f, 1.0f}});
 
     vbo_buffer(self->vbo, triangle->vertices, 0, triangle->vertices_size * sizeof(float));
 
-    int i;
-
     vbo_buffer(self->ibo, triangle->indices, 0, triangle->indices_size * sizeof(int));
 
-    vao_attr(self->vao, self->vbo, 0, 3, GL_FLOAT, 0, 0);
+    vao_attr(self->vao, self->vbo, 0, 3, GL_FLOAT, 6 * sizeof(GLfloat), 0);
+    vao_attr(self->vao, self->vbo, 1, 3, GL_FLOAT, 6 * sizeof(GLfloat), (3 * sizeof(GLfloat)));
 
     glDrawElements(GL_TRIANGLES, triangle->indices_size, GL_UNSIGNED_INT, (void *) 0);
 }
