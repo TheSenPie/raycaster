@@ -7,7 +7,7 @@
 #include "./util/util.h"
 
 #define WIDTH  1920
-#define HEIGHT 1920
+#define HEIGHT 1080
 
 int main(int args, char *argv[]) {
 	size_t triangles_size;
@@ -26,16 +26,16 @@ int main(int args, char *argv[]) {
 	unsigned char *colors = calloc(num, sizeof(char));
 	int offset = 0;
     float fov = 51.52; 
-    float scale = tan(glm_rad(fov * 0.5)); 
+    float scale = tan(glm_rad(fov * 0.5));
     float imageAspectRatio = WIDTH / (float)HEIGHT; 
     vec3s orig;
 	orig = GLMS_VEC3_ZERO; 
-	size_t i, j, triangle_idx;
-    for (j = 0; j < WIDTH; j++) { 
-        for (i = 0; i < HEIGHT; i++) {
+	size_t row, col, triangle_idx;
+    for (row = 0; row < HEIGHT; row++) {
+        for (col = 0; col < WIDTH; col++) {
             // compute primary ray
-            float x = (2 * (i + 0.5) / (float) WIDTH - 1) * imageAspectRatio * scale; 
-            float y = (1 - 2 * (j + 0.5) / (float)HEIGHT) * scale; 
+            float x = (2 * (col + 0.5) / (float) WIDTH - 1) * imageAspectRatio * scale; 
+            float y = (1 - 2 * (row + 0.5) / (float)HEIGHT) * scale; 
             vec3s dir;
 			dir = (vec3s) {{x, y, -1}}; 
             glms_normalize(dir);
